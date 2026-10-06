@@ -1,0 +1,137 @@
+# 🚑 Ambulance Dispatch & Emergency Response Simulator
+
+## 📌 Project Overview
+
+The Ambulance Dispatch & Emergency Response Simulator is a C++ based
+emergency management system that simulates how an emergency control
+center can receive emergency requests, prioritize them, select a suitable
+ambulance, find an appropriate hospital, and manage the emergency lifecycle.
+
+The project demonstrates Object-Oriented Programming, STL containers,
+priority queues, distance calculation, file handling, exception handling,
+and algorithmic decision making.
+
+---
+
+## 🎯 Objectives
+
+- Manage emergency requests
+- Prioritize emergencies based on severity
+- Maintain ambulance information
+- Maintain hospital information
+- Match ambulances with required equipment
+- Calculate ambulance distance
+- Select suitable hospitals
+- Dispatch emergency vehicles
+- Track emergency status
+- Generate emergency reports
+
+---
+
+## 🚨 Emergency Priority
+
+| Priority | Severity |
+|----------|----------|
+| 1 | Critical |
+| 2 | High |
+| 3 | Medium |
+| 4 | Low |
+
+Critical emergencies are processed before lower-priority emergencies.
+
+---
+
+## 🚑 Ambulance Types
+
+- Basic Ambulance
+- Advanced Ambulance
+- ICU Ambulance
+
+The system considers ambulance availability and required equipment
+before dispatching.
+
+---
+
+## 🏥 Hospital Selection
+
+Hospitals are selected using:
+
+- Emergency bed availability
+- ICU bed availability
+- Required department
+- Distance from emergency location
+
+---
+
+## 🧠 System Workflow
+
+Emergency Reported
+↓
+Priority Assignment
+↓
+Available Ambulance Search
+↓
+Equipment Matching
+↓
+Distance Calculation
+↓
+Ambulance Selection
+↓
+Hospital Selection
+↓
+Emergency Dispatch
+↓
+Patient Transport
+↓
+Emergency Completion
+↓
+Report Generation
+
+---
+
+## 🛠 Technologies Used
+
+- C++
+- C++17
+- Object-Oriented Programming
+- STL
+- Priority Queue
+- Vector
+- File Handling
+- Exception Handling
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📚 OOP Concepts
+
+The project demonstrates:
+
+- Classes and Objects
+- Encapsulation
+- Inheritance
+- Abstraction
+- Polymorphism
+- Constructors
+- Destructors
+- Operator Overloading
+- Composition
+- STL
+- Exception Handling
+
+---
+
+## 📂 Project Structure
+
+```text
+Ambulance-Dispatch-Simulator/
+│
+├── include/
+├── src/
+├── data/
+├── tests/
+├── main.cpp
+├── README.md
+└── .gitignore
